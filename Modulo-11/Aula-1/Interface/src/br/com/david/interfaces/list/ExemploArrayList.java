@@ -1,6 +1,7 @@
 package br.com.david.interfaces.list;
 
 import br.com.david.interfaces.domain.Aluno;
+import br.com.david.interfaces.domain.ComparaNotaAluno;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -57,6 +58,7 @@ public class ExemploArrayList {
         lista.add("Daniel lopes");
         lista.add("Zorete fonseca");
         // ordenando em ordem ascendente
+        ComparaNotaAluno comparaNotaAluno = new ComparaNotaAluno();
         Collections.sort(lista);
 
         System.out.println(lista);

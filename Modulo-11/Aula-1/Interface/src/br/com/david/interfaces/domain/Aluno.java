@@ -44,12 +44,14 @@ public class Aluno implements Comparable<Aluno> {
         this.nota = nota;
     }
 
-    // Convertendo o objeto em texto para evirtar o erro de imprimir o caminho guardado em memoria
+    // Convertendo o objeto em texto para evitar o erro de imprimir o caminho guardado em memória
+    // Tbm serve par imprimir o objeto no console
     @Override
     public String toString() {
         return this.nome;
     }
 
+    //Comparando o nome da classe com o nome que vem do método
     @Override
     public int compareTo(Aluno aluno) {
         return this.nome.compareTo(aluno.getNome());
