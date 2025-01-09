@@ -1,4 +1,4 @@
-package br.com.davidlopes.meusexemplos.model;
+package br.com.davidlopes.model;
 
 import java.util.List;
 

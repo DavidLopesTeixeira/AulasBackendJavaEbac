@@ -1,6 +1,6 @@
 package br.com.davidlopes.exemploAula;
 
-import br.com.davidlopes.meusexemplos.model.Pessoa;
+import br.com.davidlopes.model.Pessoa;
 
 import java.util.List;
 import java.util.function.Predicate;

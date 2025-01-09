@@ -1,6 +1,6 @@
 package br.com.davidlopes.listFilter;
 
-import br.com.davidlopes.meusexemplos.model.Pessoa;
+import br.com.davidlopes.model.Pessoa;
 
 import java.util.ArrayList;
 import java.util.List;
