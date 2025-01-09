@@ -1,4 +1,4 @@
-package br.com.davidlopes;
+package br.com.davidlopes.exemploAula;
 
 import java.util.List;
 import java.util.Map;
