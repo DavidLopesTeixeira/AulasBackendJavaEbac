@@ -1,4 +1,4 @@
-package br.com.davidlopes.exemploAula;
+package br.com.davidlopes.intermediarias.listFilter.exemploAula;
 
 import java.util.List;
 import java.util.Map;

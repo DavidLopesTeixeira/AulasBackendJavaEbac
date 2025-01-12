@@ -1,4 +1,4 @@
-package br.com.davidlopes.map;
+package br.com.davidlopes.intermediarias.listFilter.map;
 
 import br.com.davidlopes.model.Pessoa;
 

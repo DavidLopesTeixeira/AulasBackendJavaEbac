@@ -1,4 +1,4 @@
-package br.com.davidlopes.distinct;
+package br.com.davidlopes.intermediarias.listFilter.distinct;
 
 
 
@@ -11,9 +11,10 @@ public class ExemploDistinct {
     public static void main(String[] args) {
         List<Pessoa> lista = new Pessoa().popularPessoas();
         // Para usar o distinct devemos implementar o equals e hashcode > estamos comparando o id e nome
+        // Distinct -> não vai repetir as pessoas com o mesmo nome e o mesmo id
 
         Stream<Pessoa> stream = lista.stream().distinct();
-        // 09:27 Aula 3: Operações intermediárias - Parte 2
+
 
     }
 }

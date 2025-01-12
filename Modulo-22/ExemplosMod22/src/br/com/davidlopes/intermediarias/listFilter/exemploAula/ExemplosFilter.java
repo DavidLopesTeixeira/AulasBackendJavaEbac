@@ -1,4 +1,4 @@
-package br.com.davidlopes.exemploAula;
+package br.com.davidlopes.intermediarias.listFilter.exemploAula;
 
 import br.com.davidlopes.model.Pessoa;
 

@@ -1,4 +1,4 @@
-package br.com.davidlopes.sorted;
+package br.com.davidlopes.intermediarias.listFilter.sorted;
 
 import br.com.davidlopes.model.Pessoa;
 
