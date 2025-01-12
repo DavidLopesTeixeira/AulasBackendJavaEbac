@@ -19,6 +19,10 @@ public class Pessoa {
 
     }
 
+    public Pessoa(Pessoa pessoa) {
+        this(pessoa.getId(), pessoa.getNome(), pessoa.getNacionalidade(), pessoa.getIdade());
+    }
+
     public String getId() {
         return id;
     }
@@ -56,7 +60,7 @@ public class Pessoa {
         Pessoa pessoa1 = new Pessoa("P1","David Lopes", "Brasil", 32);
         Pessoa pessoa2 = new Pessoa("P2","Daniela Lopes", "Brasil", 29);
         Pessoa pessoa3 = new Pessoa("P3", "Hernandez Roja", "Mexico", 21);
-        Pessoa pessoa4 = new Pessoa("P4", "Mario Fernandes", "Canada", 28);
+        Pessoa pessoa4 = new Pessoa("P4", "Mario Fernandes", "Canada", 21);
 
         // Retornando uma lista com 4 pessoas
         return List.of(pessoa1, pessoa2, pessoa3, pessoa4);
@@ -71,4 +75,6 @@ public class Pessoa {
         +"\nIdade: " + idade
                 + "\n";
     }
+
+
 }
