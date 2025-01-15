@@ -8,6 +8,8 @@ public class Pessoa {
     private String nacionalidade;
     private int idade;
 
+    
+
     public Pessoa(String id, String nome, String nacionalidade, int idade){
         this.id = id;
         this.nome = nome;
